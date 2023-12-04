@@ -1,5 +1,5 @@
 function isSameType(value1, value2) {
-  if (value2.typeOf==value1.typeOf) {
+  if (value2.typeOf===value1.typeOf) {
   	return true;
   } else {
   	return false;
